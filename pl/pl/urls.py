@@ -19,4 +19,5 @@ from django.urls import include, path
 urlpatterns = [
     path('', include('frontend.urls')),
     path('admin/', admin.site.urls),
+    path('tweets/',include('backend.urls')),
 ]
